@@ -21,7 +21,7 @@ London & Southampton, UK
 
 ### 2020-04-09 09:00 UTC+0
 
-#### US West coast team
+#### Canada & US West coast team
 
 * Have prototypes.
 * Some testing performed.
