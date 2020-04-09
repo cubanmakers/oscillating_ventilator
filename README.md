@@ -30,7 +30,7 @@ London & Southampton, UK
 #### UK volunteers
 
 * Have 3D printed (filament) prototype
-* Trying to find academic to help test
+* Made contact with academic to help test
 
 
 ## Designs
@@ -38,6 +38,35 @@ London & Southampton, UK
 * Design files (including solid works): https://github.com/dogcomplex/oscillating_ventilator/tree/0802406738ced803768a7151b4399e3e1ae447ef/army-ventilator/02_Designs/whitney
   * Please read the readme file in that folder^^
 * Design doc: https://docs.google.com/document/d/1por1ouQ4hEpHWrM--5hgncuU5_h0UzBLS1P5lqg7H7Q/edit#heading=h.w84bvm9bty9
+
+### Testing request
+
+Team calculated the simplest test should take between 30 to 60 minutes (including set up time) and would be very grateful for the following data:
+
+* Intended Delivered Tidal Volume:  300-500, assess every 100 ml  (simulating patients 50-83 kg, 6 ml/kg )
+* Lung Compliance:  10-30, assess every 10 ml/cmH2O
+* Airway Resistance: 0-15, assess every 5 cmH2O/l/sec
+* Input Pressure (from Source): 50-350, every 75 cmH2O
+
+Recording achieved:  PIP, PEEP, Tidal Volume, Inhale Time, Exhale Time averages over 3 breaths or 10 seconds (feel free to increase time, but not needed)\
+Any sequence of these combinations could be aborted when progressing will push past limits of : RR max 30 / min 8,  PIP max 40 / min 10, PEEP max 20 / min 5
+
+Total different max combinations:  3 * 3 * 3 * 5 = 135\
+Total time: ~20 seconds * 135 =  45 minutes (plus setup time)
+
+(of course, if you don't mind getting finer grained that would be amazing!)
+
+=====
+
+Bonus from there would be trying different distances between PIP and PEEP, adjusting the calibration screws until PIP - PEEP is 10, 15, 20, 25.  (4 combinations.  89 minutes total)
+
+Finally trying the above for base PEEP of 5, 10, 15, 20  (4 combinations, 6 hours total).  Though this likely have an obvious effect (just increases PIP and PEEP without affecting RR or TV much) in which case - happy to skip entirely!
+
+=====
+
+If that sounds at all reasonable and you have the time to dedicate, please!  Feel free to suggest a better breakdown of tests as well - these are best-guesses, and aimed mainly to inform design rather than certify (though both would be nice).  If there's a proper procedure that covers the same areas faster or better, feel free to use that instead!   And happy to go for even less if you think this is too much or will produce bad data.
+
+Thank you for your consideration and hard work.
 
 ### Specification
 
